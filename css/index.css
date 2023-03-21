@@ -81,7 +81,7 @@ nav .start-about, a:nth-child(2):hover~.animation {
     left: 100px;
     background-color: #eb5f1a;
 }
-nav .start-blog, a:nth-child(3):hover~.animation {
+nav .start-blogl, a:nth-child(3):hover~.animation {
     width: 100px;
     left: 200px;
     background-color: #eb5f1a;
@@ -96,6 +96,32 @@ nav .start-steam, a:nth-child(5):hover~.animation {
     left: 400px;
     background-color: #eb5f1a;
 }
+nav .start-home, a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+    background-color: #eb5f1a;
+}
+nav .start-about, a:nth-child(2):focus~.animation {
+    width: 100px;
+    left: 100px;
+    background-color: #eb5f1a;
+}
+nav .start-blogl, a:nth-child(3):focus~.animation {
+    width: 100px;
+    left: 200px;
+    background-color: #eb5f1a;
+}
+nav .start-faceit, a:nth-child(4):focus~.animation {
+    width: 100px;
+    left: 300px;
+    background-color: #eb5f1a;
+}
+nav .start-steam, a:nth-child(5):focus~.animation {
+    width: 100px;
+    left: 400px;
+    background-color: #eb5f1a;
+}
+
 body {
     font-size: 12px;
     font-family: sans-serif;
