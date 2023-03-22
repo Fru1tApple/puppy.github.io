@@ -1,7 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#main {
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    background: #1f1f1f;
+}
+
 .wrapper{
     height: 100vh;
     display: grid;
     place-items: center;
+
 }
 .typing-demo{
     width: 11ch;
@@ -33,6 +45,11 @@ nav {
     background-color: #333333;
     border-radius: 8px;
     font-size: 0;
+    margin-bottom: 25px;
+    left: 37.5%;
+    display: block;
+    position: fixed;
+    float: left;
 }
 nav a {
     line-height: 50px;
@@ -121,10 +138,9 @@ nav .start-steam, a:nth-child(5):focus~.animation {
     background-color: #eb5f1a;
 }
 #background-video {
-    height: 800px;
-    background: url(https://cdn.mos.cms.futurecdn.net/fAe5M9dFmtAy9hhwaiDLqK.jpg) no-repeat center 110px;
-    background-size: cover;
-    background-attachment: fixed;
+    height: 100%;
+    display: block;
+
 }
 #background-color {
     height: 1000px;
